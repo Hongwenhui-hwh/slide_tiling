@@ -159,7 +159,7 @@ if __name__ == "__main__":
         #顶点数：52，矩阵变成52*1*2维
         pts = pts.transpose((2,0,1))
         # 绘制未填充的多边形
-        #cv2.polylines(mask,[pts],True,(255,255,255))   #坐标对是数组形式，我们需要用‘[ ]' 转换为列表形式，然后用np.int32转化格式
+        #cv2.polylines(mask,[pts],True,(255,255,255)) 
         # 绘制填充的多边形,得到最终的mask
         cv2.fillConvexPoly(mask, pts, (255,255,255))
         #显示并保存图像
