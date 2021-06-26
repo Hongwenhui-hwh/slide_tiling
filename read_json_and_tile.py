@@ -1,6 +1,6 @@
 '''
     File name: read_json_and_tile.py
-    Date created: 2021/02/26
+    Date created: 2021/06/26
 
 	Objective:
 	Tile svs images with the json masks
